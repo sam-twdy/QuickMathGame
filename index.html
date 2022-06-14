@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>10 Sec Math Game</title>
+    <!-- Latest compiled and minified CSS Bootstrap 3 -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="style.css" rel="stylesheet">
+
+    <!-- jQuery and JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="script.js"></script> 
+
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/8b769a7f73.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <h2 class="text-center">Quick Math Game</h2>
+          <h3 id="time-left">10 second(s) left</h3>
+          <div class="text-center">
+          <h1 id="equation"></h1>
+          <input id="user-input" type="number"/>
+          <div class="op-container">
+            <span class="operator"><input class="op-select" type="checkbox" data-op="add" checked> +</span>
+            <span class="operator"><input class="op-select" type="checkbox" data-op="subtract"> -</span>
+            <span class="operator"><input class="op-select" type="checkbox" data-op="multiply"> ×</span>
+            <span class="operator"><input class="op-select" type="checkbox" data-op="divide"> ÷</span>
+          </div>
+          <div>
+            <input id="range-input" class="range" type="range" min="10" max="50" value="10"/>
+          </div>
+          <h4 class="value">Max Value: 10</h4>
+        </div>
+          <h4>Score: <span id="score"></span></h4>
+          <h4>High Score: <span id="high-score"></span></h4>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

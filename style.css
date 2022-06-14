@@ -1,0 +1,42 @@
+.container {
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%), 0 25px 50px 0 rgb(0 0 0 / 10%);
+    background-color: rgba(255, 255, 255, 0.33);
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    color: black;
+} 
+
+.op-container {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.operator {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+body {
+    background-image: url(./images/background.jpg);
+}
+
+#range-input {
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#SelectValue {
+    width: 48px;
+    height: 40px;
+    top: 0;
+    background: #ffd200;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 45px;
+    font-size: 20px;
+    font-weight: bold;
+}
